@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: Yellow;
+    background-color: lightskyblue
+}
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    text-align: center;
+    color: lightcoral;
+    font-size: 30px;
+}
+.shuffler{
+    font-size: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    border-radius: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: blue;
+    background-color: yellow;
+}

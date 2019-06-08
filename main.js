@@ -2,8 +2,9 @@
 [
   {
         name: "Derek",
-        fact: "Collects Iron Man Merch."
-    }, 
+        fact: "Collects Iron Man Merch." 
+    }
+    , 
     {
         name: "Frank",
         fact: "Has a Razer scooter."
@@ -14,7 +15,6 @@
         fact: "Never climbed a ladder."
     }
 ];
-
 
 function getUser() {
     for (i = 0; i < users.length; i++) {
