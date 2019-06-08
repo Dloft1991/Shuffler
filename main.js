@@ -11,17 +11,21 @@
     , 
      {
         name: "Mary",
-        fact: "Never clibed a ladder."
+        fact: "Never climbed a ladder."
     }
 ];
 
 
 function getUser() {
-    const randomizer = JSON.stringify(users[Math.floor(Math.random() * users.length)]);
+    for (i = 0; i < users.length; i++) {
+        const randomizer = (users[Math.floor(Math.random() * users.length)]);
 
+        myName = randomizer.name;
+        myFact = randomizer.fact;
     console.log(randomizer);
-    $("#name").text(randomizer);
-        // $("#name").text(users.one.name);
-        // $("#fact").text(users.one.fact);
+        $("#name").text(myName);
+        $("#fact").text(myFact); 
+    }
+   
 }
 
